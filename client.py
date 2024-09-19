@@ -10,7 +10,7 @@ import time
 import requests
 import json
 
-target = "http://127.0.0.1:3091"
+target = "http://127.0.0.1:8000"
 urls = target + '/api/fight/'
 ws = open('hdfight.mp4', 'rb')#.read()
 files = {'file': ws}
